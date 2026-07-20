@@ -1,1 +1,34 @@
-node_modules
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# CatBoost logs
+catboost_info/
+
+# Environment variables
+.env
+
+# ==========================
+# Generated ML models
+# ==========================
+backend/models/*.cbm
+backend/models/*.pkl
+
+# ==========================
+# Generated processed datasets
+# ==========================
+backend/datasets/processed/*.csv
