@@ -22,13 +22,4 @@ catboost_info/
 # Environment variables
 .env
 
-# ==========================
-# Generated ML models
-# ==========================
-backend/models/*.cbm
-backend/models/*.pkl
 
-# ==========================
-# Generated processed datasets
-# ==========================
-backend/datasets/processed/*.csv

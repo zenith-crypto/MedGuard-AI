@@ -1,0 +1,7 @@
+backend/models/*.cbm filter=lfs diff=lfs merge=lfs -text
+backend/models/*.pkl filter=lfs diff=lfs merge=lfs -text
+backend/datasets/processed/ddinter_combined.csv filter=lfs diff=lfs merge=lfs -text
+backend/datasets/processed/openfda_data.csv filter=lfs diff=lfs merge=lfs -text
+backend/datasets/processed/pubchem_data.csv filter=lfs diff=lfs merge=lfs -text
+backend/datasets/processed/training_dataset_v2.csv filter=lfs diff=lfs merge=lfs -text
+
